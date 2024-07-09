@@ -1,0 +1,81 @@
+<!-- action-films.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Action Films</title>
+  <link rel="stylesheet" href="action style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="img/pasta icon.png">
+</head>
+<body>
+
+<style>
+  .film-genres {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .film-genres li {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .film-genres li:hover {
+      background-color: rgba(255, 0, 0, 0.447);
+      transform: scale(1.1);
+      box-shadow: 0 4px 8px rgb(0, 55, 255);
+    }
+  
+</style>
+
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="other geners.html">Other Genres</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Explore Action Films</h2>
+      <p>Check out our collection of thrilling action movies.</p>
+    </section>
+    <section class="action-films">
+      <h2>Action Films</h2>
+      <div class="film-grid">
+        <!-- Add your action film cards here -->
+      </div>
+    </section>
+    <section class="film-genres-section">
+      <h2>Explore Film Genres</h2>
+      <ul class="film-genres">
+        <li><a href="action film.html">Action Films</a></li>
+        <li>Comedy</li>
+        <li>Drama</li>
+        <li>Horror</li>
+        <li>Romance</li>
+        <li>Sci-Fi</li>
+        <li>Documentary</li>
+        <li>Animation</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Movie Review Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <title>pasta</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="homepage style.css">
+  <link rel="icon" type="image/x-icon" href="img/pasta icon.png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: white;
+    }
+
+    .hero h2,
+    .featured-reviews h2,
+    .film-genres-section h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+    }
+
+    .film-genres {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .film-genres li {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .film-genres li:hover {
+      background-color: rgba(255, 0, 0, 0.447);
+      transform: scale(1.1);
+      box-shadow: 0 4px 8px rgb(0, 55, 255);
+    }
+.logo-of-home{
+     place-items: 36,26;
+}
+/*the log in button style*/
+
+.container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .container a {
+      text-decoration: none;
+    }
+    .container button {
+      transition: background-color 0.3s ease;
+    }
+    .container button:hover {
+      background-color: #4CAF50;
+    float: inline-start right;
+
+    }
+    
+/*the log in button style end*/
+
+
+
+  </style>
+</head>
+<body>
+  
+
+ 
+  <header>
+
+        <div > 
+        
+       <a href="home.html" ><img src="img/pasta icon.png" alt="logo" class="logo-of-home" height="90px" width="90px"></a>
+       <span><h1 class="header h1">Pasta</h1></span>
+    </div> 
+    <!-- a log in button -->
+    <div class="container">
+      <a href="log in.html">
+        log in</a>
+      <button>log in</button>
+    </div>
+    
+    
+    
+    
+    <section>
+         <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </section>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Discover Your Next Favorite Film</h2>
+      <p>Explore our collection of movie reviews and streaming recommendations.</p>
+    </section>
+
+    <section class="featured-reviews">
+      <h2>Featured Reviews</h2>
+      <div class="review-card">
+        <img src="movie-poster.jpg" alt="Movie Poster">
+        <h3>The Grand Budapest Hotel</h3>
+        <p>A delightfully quirky film from Wes Anderson.</p>
+        <a href="#">Read Review</a>
+      </div>
+      <!-- Add more review cards here -->
+    </section>
+
+<!-- Add more poster films -->
+
+    <section class="film-posters">
+      <h2>Posters de films</h2>
+      <div class="poster-grid">
+        <div class="poster-item">
+          <img src="img/movie-night-flyer-design-template-202e1571041b19ee204c9d0fc8719d93.jpg" alt="Poster 1">
+          <h3>Movie Night</h3>
+        </div>
+        <div class="poster-item">
+          <img src="img/movie-poster-template-design-21a1c803fe4ff4b858de24f5c91ec57f_screen.jpg" alt="Poster 2">
+          <h3>Stand-up evening</h3>
+        </div>
+        <div class="poster-item">
+          <img src="img/movie-poster-template-design-425afebdc1dd8a9bac0e3d27cd2bef95.jpg" alt="Poster 3">
+          <h3>Special Screening</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="film-genres-section">
+      <h2>Explore Film Genres</h2>
+      <ul class="film-genres">
+        <li><a href="action film.html">Action Films</a></li>
+        <li>Comedy</li>
+        <li>Drama</li>
+        <li>Horror</li>
+        <li>Romance</li>
+        <li>Sci-Fi</li>
+        <li>Documentary</li>
+        <li>Animation</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Film Fanatics. All rights reserved.</p>
+  </footer>
+  <script src="js home.js"></script>
+</body>
+</html>
